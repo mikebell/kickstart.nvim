@@ -1,7 +1,7 @@
 -- Nvim-tree is a Neovim plugin to browse the file system
 -- https://github.com/nvim-tree/nvim-tree.lua
 
-vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { desc = 'Toggle File Explorer' })
+vim.keymap.set('n', '<leader>e', ':NvimTreeFindFileToggle<CR>', { desc = 'Toggle File Explorer' })
 
 return {
   'nvim-tree/nvim-tree.lua',
