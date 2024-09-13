@@ -30,7 +30,7 @@ return { -- Autoformat
       -- python = { "isort", "black" },
       --
       -- You can use 'stop_after_first' to run the first available formatter from the list
-      go = { 'gogumpt', stop_after_first = true },
+      go = { 'gofumpt', stop_after_first = true },
       javascript = { 'eslint_d', 'prettierd' },
       sh = { 'beautysh' },
       bash = { 'shellcheck', 'beautysh' },
