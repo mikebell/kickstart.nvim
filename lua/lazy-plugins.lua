@@ -1,6 +1,5 @@
 require('lazy').setup {
   'tpope/vim-sleuth',
-  -- normal autocommands events (`:help autocmd-events`).
 
   require 'kickstart.plugins.onedark',
   require 'kickstart.plugins.nvim-lsp',
@@ -19,7 +18,7 @@ require('lazy').setup {
   require 'kickstart.plugins.luvit-meta',
   require 'kickstart.plugins.tokyonight',
   require 'kickstart.plugins.todo-comments',
-  -- require 'kickstart.plugins.lint',
+  require 'kickstart.plugins.lint',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.

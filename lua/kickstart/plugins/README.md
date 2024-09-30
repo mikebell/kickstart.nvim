@@ -2,7 +2,7 @@
 
 Plugins are managed via Lazy, to check the current status of plugins run `:Lazy`. You can press `?` for help and `:Lazy update` to update the plugins.
 
-Plugins can be configured to run Lua code when they are loaded using the init block. And, we can use the config block to run lua code when the plugin has been loaded. Plugins can be lazy loaded, so they aren't loaded immediately on startup. You can load a plugin on events eg. `event = 'VimEnter'`
+Plugins can be configured to run Lua code when they are loaded using the init block. And, we can use the config block to run lua code when the plugin has been loaded. Plugins can be lazy loaded, so they aren't loaded immediately on startup. You can load a plugin on events eg. `event = 'VimEnter'` (find other autocommand events with `:help autocmd-events`)
 
 ## LSP vs treesitter
 
