@@ -1,5 +1,7 @@
 # Nvim plugins
 
+## Lazy
+
 Plugins are managed via Lazy, to check the current status of plugins run `:Lazy`. You can press `?` for help and `:Lazy update` to update the plugins.
 
 Plugins can be configured to run Lua code when they are loaded using the init block. And, we can use the config block to run lua code when the plugin has been loaded. Plugins can be lazy loaded, so they aren't loaded immediately on startup. You can load a plugin on events eg. `event = 'VimEnter'` (find other autocommand events with `:help autocmd-events`)
@@ -30,10 +32,10 @@ The plugins I use are listed and briefly explained here:
 - luvit-meta
 - tokyonight
 - todo-comments
-- plenary
 - williamboman/mason
-- j-hui/fidget.nvim
 - bullets.vim
+- j-hui/fidget.nvim (dependency) -- extensible UI for Neovim notifications and LSP progress messages
+- plenary (dependency) -- library of lua fns
 
 ## windwp/nvim-autopairs
 
@@ -118,6 +120,14 @@ A collection of definition files for the lua framework Luvit [(https://github.co
 ## folke/todo-comments.nvim
 
 Highlight todo, note, warn, perf, test, hack etc in comments [(https://github.com/folke/todo-comments.nvim)]
+
+## williamboman/mason
+
+Portable package manager for Neovim. Easily install and manage LSP servers, DAP servers, linters, and formatters [(https://github.com/williamboman/mason.nvim)]
+
+## bullets-vim/bullets.vim
+
+Bullets.vim is a Vim/NeoVim plugin for automated bullet lists [(https://github.com/bullets-vim/bullets.vim)]
 
 ### Colour schemes
 
