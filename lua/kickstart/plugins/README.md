@@ -33,6 +33,7 @@ The plugins I use are listed and briefly explained here:
 - plenary
 - williamboman/mason
 - j-hui/fidget.nvim
+- bullets.vim
 
 ## windwp/nvim-autopairs
 
