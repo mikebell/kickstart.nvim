@@ -145,7 +145,7 @@ return {
       terraformls = {},
       typos_lsp = {},
       yamlls = {},
-      nginx_language_server = {},
+      --nginx_language_server = {},
       lua_ls = {
         -- cmd = {...},
         -- filetypes = { ...},
